@@ -22,6 +22,10 @@ h2{
     margin-bottom: 20px;
 }
 
+.row {
+    margin-bottom: 10px;
+}
+
 input[type="text"]{
     width: 100%;
     padding: 10px;
@@ -42,6 +46,7 @@ button{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    width: 100%;
 }
 
 button:hover{
@@ -81,8 +86,70 @@ tr:nth-child(even){
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    width: auto;
 }
 
 .deleteBtn:hover{
     background-color: #d32f2f;
+}
+
+.editBtn{
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto;
+}
+
+.editBtn:hover{
+    background-color: #0b7dda;
+}
+
+/* Bootstrap Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    table {
+        font-size: 12px;
+    }
+    
+    th, td {
+        padding: 6px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
 }
