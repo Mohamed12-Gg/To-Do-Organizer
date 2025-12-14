@@ -28,7 +28,10 @@ Users can add, edit, delete, and mark tasks as completed, with data saved locall
 Just open `index.html` in any modern web browser — no installation required.
 
 ## Live Demo
-You can view the live version of the project here:  
-👉 [To-Do List Web App](https://to-do-list-seven-ecru-13.vercel.app/)
+<a href="https://to-do-list-seven-ecru-13.vercel.app/" target="_blank">
+  To-Do List Web App
+</a>
+
+
 
 
